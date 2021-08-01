@@ -55,9 +55,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url("../img/배경화면.png");
-    background-size: cover;
-    background-position: center -50%;
+    border-bottom: 2px solid black;
     padding-top:7%;
   
 }
@@ -114,4 +112,116 @@ nav{
     font-weight:bold;
     margin-bottom:30px;
     padding:10px;
+}
+
+
+
+.secondContent {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:20%;
+
+}
+
+.secondContent:nth-child(2){
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    width:100%;
+    height:10%;
+
+}
+
+.secondContent:nth-child(3){
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:55%;
+
+}
+.secondContent:nth-child(4) {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:15%;
+}
+
+
+.secondContent__skillBox{
+    display:flex;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.secondContent__skillBox:first-child  .secondContent__skillBox__img{
+    width:60%;
+    height:70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #dfe6e9;
+    box-shadow: 5px 3px 3px 3px rgba(0,0,0,0.2);
+
+}
+.secondContent__skillBox:first-child  .secondContent__skillBox__img img{
+    width:40%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.secondContent__skillBox:nth-child(2)  .secondContent__skillBox__img{
+    width:60%;
+    height:70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #dfe6e9;
+    box-shadow: 5px 3px 3px 3px rgba(0,0,0,0.2);
+
+}
+.secondContent__skillBox:nth-child(2)  .secondContent__skillBox__img img{
+    width:40%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.secondContent__skillBox:nth-child(3)  .secondContent__skillBox__img{
+    width:60%;
+    height:70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #dfe6e9;
+    box-shadow: 5px 3px 3px 3px rgba(0,0,0,0.2);
+
+}
+.secondContent__skillBox:nth-child(3)  .secondContent__skillBox__img img{
+    width:50%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+.secondContent__skillBox__bigTxt{
+    font-size:30px;
+    font-weight: bold;
+    color:#0984e3;
+
+}
+
+.secondContent__skillBox__smallTxt {
+    font-size: 22px;
 }
