@@ -1,52 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="img/favicon" href="img/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/favicon" href="img/favicon.png" />
     <title>JeongBin's Portfolio</title>
-    <meta name="description" content="my Portfolio to do a great developer">
-    <meta name="author" content="JeongBin">
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <meta name="description" content="my Portfolio to do a great developer" />
+    <meta name="author" content="JeongBin" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <!--Nav bar-->
     <nav id="navbar">
-        <div class="navbar__logo">
-            <i class="fab fa-diaspora"></i>
-            <a href="#">JeongBin</a>
-        </div>
+      <div class="navbar__logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">JeongBin</a>
+      </div>
 
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My work</li>
-                <li class="navbar__menu__item">Testimonial</li>
-                <li class="navbar__menu__item">Contact</li>
-            </ul>
-        </div>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">Home</li>
+          <li class="navbar__menu__item">About</li>
+          <li class="navbar__menu__item">Skills</li>
+          <li class="navbar__menu__item">My work</li>
+          <li class="navbar__menu__item">Testimonial</li>
+          <li class="navbar__menu__item">Contact</li>
+        </ul>
+      </div>
     </nav>
-
-
 
     <!--Home-->
     <section id="home">
-        <img src="img/프로파일.png" alt="jeong bin's profile photo" class="home__avater">
-        <h1 class="home__title">Hello,<br>I'm jeongbin!</h1>
-        <h2 class="home__description">i'm Front End developer i can make design too</h2>
-        <button class="home__contact">contact me</button>
+      <img
+        src="img/프로파일.png"
+        alt="jeong bin's profile photo"
+        class="home__avater"
+      />
+      <h1 class="home__title">Hello,<br />I'm jeongbin!</h1>
+      <h2 class="home__description">
+        i'm Front End developer i can make design too
+      </h2>
+      <button class="home__contact">contact me</button>
     </section>
 
-
     <!-- About -->
-    <section id="about"></section>
-    
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        현재는 php를 개발을 하고 있습니다 javascript또한 굉장히 열심히 해서 많은
+        프로젝트 들에 참여하였습니다
+      </p>
+
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+              <i class="fab fa-html5"></i>
+            </div>
+          <div class="major__title">
+              Front-end
+          </div>
+          <div class="major__descirption">
+              Html,Css,Javascript
+          </div>
+        </div>
+
+        <div class="major">
+            <div class="major__icon">
+                <i class="fas fa-database"></i>
+              </div>
+            <div class="major__title">
+                Back-end
+            </div>
+            <div class="major__descirption">
+               php,java
+            </div>
+          </div>
+
+          <div class="major">
+            <div class="major__icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+            <div class="major__title">
+               Design
+            </div>
+            <div class="major__descirption">
+                Figma,PhotoShop
+            </div>
+          </div>
+
+
+      </div>
+
+      <div class="about__jobs">
+        <div class="job">
+            <img src="" alt="jineex" class="job__logo"/>
+            <p class="job__name"></p>
+            <p class="job__period"></p>
+        </div>
+        <div class="job">
+            <div class="job">
+                <img src="" alt="smartmedia" class="job__logo"/>
+                <p class="job__name"></p>
+                <p class="job__period"></p>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
     <!-- Skills -->
     <section id="skills"></section>
-    
+
     <!-- Work-->
     <section id="work"></section>
 
@@ -56,9 +121,10 @@
     <!-- Contact-->
     <section id="contact"></section>
     <section></section>
-
-
-
-</body>
-<script src="js/main.js" defer></script>
+  </body>
+  <script src="js/main.js" defer></script>
+  <script
+    src="https://kit.fontawesome.com/520a1f1065.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
