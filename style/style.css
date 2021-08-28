@@ -198,6 +198,10 @@ p{
     border-radius: (--size-border-radius);
 }
 
+.home__contact:hover{
+    background-color:var(--color-orange);
+}
+
 /*Section common*/
 .section{
     padding: 50px;
@@ -555,6 +559,16 @@ p{
 
 /*For below 768px screen width*/
 @media screen and (max-width:768px) {
+    :root {
+         /* Font size */
+        --font-large: 30px;
+        --font-medium: 18px;
+        --font-regular: 16px;
+        --font-small: 14px;
+        --font-micro: 12px;
+
+    }
+
     
     #navbar {
         flex-direction: column;
@@ -590,8 +604,14 @@ p{
         display:block;
     }
 
+    .section {
+        padding:16px;
+    }
+
     .about__majors {
         flex-direction: column;
+        margin-top:30px;
+        margin-bottom:0px;
         
     }
 
@@ -601,6 +621,10 @@ p{
 
     .skillset {
         flex-direction: column;
+    }
+
+    .category__btn {
+        padding:8px;
     }
 
     .project {
