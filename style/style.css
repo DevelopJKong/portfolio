@@ -143,6 +143,9 @@ p{
     color:var(--color-white);
 }
  
+.navbar__menu__item.active{
+    border: 1px solid solid;
+}
 
 
 .navbar__menu__item:hover{
